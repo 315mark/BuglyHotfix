@@ -3,10 +3,8 @@ package com.zkch.bugly.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -21,7 +19,6 @@ import com.zkch.bugly.presenter.WeatherPresenterImpl;
 import java.util.ArrayList;
 import java.util.List;
 import butterknife.BindView;
-
 
 public class WeatherFragment extends BaseFragment implements WeatherContract.WeatherView {
 

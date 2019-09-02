@@ -63,14 +63,14 @@
                     style="@style/weacher_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/dp_4"
+                    android:padding="4dp"
                     android:text="22℃-28℃"  />
                 <TextView
                     android:id="@+id/wind"
                     style="@style/weacher_temp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/dp_4"
+                    android:padding="4dp"
                     android:text="微风" />
                 <TextView
                     android:id="@+id/weather"

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_manager"
+    app:startDestination="@id/newsFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.zkch.bugly.fragment.NewsFragment"
+        android:label="NewsFragment" />
+
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="com.zkch.bugly.fragment.NewsListFragment"
+        android:label="NewsListFragment" />
+
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.zkch.bugly.fragment.ImageFragment"
+        android:label="ImageFragment" />
+
+    <fragment
+        android:id="@+id/jokerFragment"
+        android:name="com.zkch.bugly.fragment.JokerFragment"
+        android:label="JokerFragment" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.zkch.bugly.fragment.AboutFragment"
+        android:label="AboutFragment" />
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.zkch.bugly.fragment.WeatherFragment"
+        android:label="WeatherFragment" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.zkch.bugly.fragment.VideoFragment"
+        android:label="VideoFragment" />
+    <fragment
+        android:id="@+id/fabFragment"
+        android:name="com.zkch.bugly.fragment.FabFragment"
+        android:label="FabFragment" />
+
+
+</navigation>

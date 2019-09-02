@@ -5,7 +5,7 @@ import android.util.Log;
 
 import com.zkch.bugly.bean.WeatherBean;
 import com.zkch.bugly.contract.WeatherContract;
-import com.zkch.bugly.model.WeatherModel;
+import com.zkch.bugly.contract.WeatherContract.WeatherModel;
 import com.zkch.bugly.model.WeatherModelImpel;
 import com.zkch.bugly.utils.ToolsUtil;
 import java.util.List;

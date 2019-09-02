@@ -3,36 +3,47 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/navigation_item_news"
+            android:id="@id/newsFragment"
             android:icon="@drawable/ic_assessment_white_24dp"
             android:checked="true"
             android:title="@string/navigation_news" />
         <item
-            android:id="@+id/navigation_item_images"
+            android:id="@id/imageFragment"
             android:icon="@drawable/ic_image_white_24dp"
             android:title="@string/navigation_images" />
         <item
-            android:id="@+id/navigation_item_weather"
+            android:id="@id/weatherFragment"
             android:icon="@drawable/ic_date_range_white_24dp"
             android:title="@string/navigation_weather" />
 
         <item
-            android:id="@+id/navigation_item_about"
+            android:id="@+id/jokerFragment"
             android:icon="@drawable/ic_portrait_white_24dp"
+            android:title="@string/navigation_joker" />
+
+        <item
+            android:id="@+id/videoFragment"
+            android:icon="@drawable/ic_date_range_white_24dp"
+            android:title="@string/navigation_video" />
+
+        <item
+            android:id="@+id/pay"
+            android:icon="@drawable/ic_ecommerce"
+            android:title="@string/navigation_Pay" />
+
+        <item
+            android:id="@+id/AliPay"
+            android:icon="@drawable/ic_bank"
+            android:title="@string/navigation_AliPay" />
+
+        <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_email"
+        android:title="@string/navigation_about" />
+
+        <item
+            android:id="@+id/fabFragment"
+            android:icon="@drawable/ic_add_catogory"
             android:title="@string/navigation_about" />
-   <!-- <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
-
-    <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_dashboard" />
-
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />-->
     </group>
 </menu>

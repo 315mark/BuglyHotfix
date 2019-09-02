@@ -1,5 +1,7 @@
 package com.zkch.bugly.contract;
 
+import android.view.View;
+
 import com.zkch.bugly.base.BaseView;
 
 /**
@@ -10,14 +12,16 @@ import com.zkch.bugly.base.BaseView;
 public interface MainContract {
 
    interface MainView extends BaseView{
-       void showNews();
-       void showImages();
-       void showWeather();
-       void showAbout();
+       void showNews(View view);
+       void showImages(View view);
+       void showWeather(View view);
+       void showAbout(View view);
+       void pay(View view);
+       void AliPay(View view);
    }
 
     interface MainPresenter {
 
-        void switchNavigation(int id);
+        void switchNavigation(View view);
     }
 }

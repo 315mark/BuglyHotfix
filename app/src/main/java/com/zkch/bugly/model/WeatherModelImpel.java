@@ -9,8 +9,9 @@ import android.os.Build;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.zkch.bugly.Urls;
+import com.zkch.bugly.api.Urls;
 import com.zkch.bugly.bean.WeatherBean;
+import com.zkch.bugly.contract.WeatherContract;
 import com.zkch.bugly.utils.LogUtils;
 import com.zkch.bugly.utils.OkHttpUtils;
 import com.zkch.bugly.utils.WeatherJsonUtils;
@@ -19,7 +20,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.List;
 
-public class WeatherModelImpel implements WeatherModel {
+public class WeatherModelImpel implements WeatherContract.WeatherModel {
 
     private static final String TAG = "WeatherModelImpel";
 

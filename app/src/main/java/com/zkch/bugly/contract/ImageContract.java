@@ -21,5 +21,10 @@ public interface ImageContract {
         void onSuccess(List<ImageBean> list);
         void onFail(String msg,Exception e);
     }
+
+    interface ImageModel {
+
+        void loadImageList(ImageContract.OnLoadImageListListener listener);
+    }
 }
 

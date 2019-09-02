@@ -63,7 +63,7 @@ public class OkHttpUtils {
             }
 
             @Override
-            public void onResponse(Response response) throws IOException {
+            public void onResponse(Response response) {
                 try {
                     String str = response.body().string();
                     if (callback.mType == String.class) {

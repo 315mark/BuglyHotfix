@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_bank"
+        android:icon="@drawable/ic_bank"
+        android:title="@string/options_menu_item_bank" />
+
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_email"
+        android:title="@string/options_menu_item_email" />
+
+    <item
+        android:id="@+id/action_social_network"
+        android:icon="@drawable/ic_social_network"
+        android:title="@string/options_menu_item_social_network" />
+
+    <item
+        android:id="@+id/action_ecommerce"
+        android:icon="@drawable/ic_ecommerce"
+        android:title="@string/options_menu_item_ecommerce"/>
+
+    <item
+        android:id="@+id/action_others"
+        android:icon="@drawable/ic_others"
+        android:title="@string/options_menu_item_others" />
+
+</menu>

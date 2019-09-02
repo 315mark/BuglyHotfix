@@ -1,5 +1,5 @@
 package com.zkch.bugly.model;
-import com.zkch.bugly.Urls;
+import com.zkch.bugly.api.Urls;
 import com.zkch.bugly.bean.ImageBean;
 import com.zkch.bugly.contract.ImageContract;
 import com.zkch.bugly.utils.ImageJsonUtils;
@@ -7,7 +7,7 @@ import com.zkch.bugly.utils.OkHttpUtils;
 
 import java.util.List;
 
-public class ImageModelImpl implements ImageModel {
+public class ImageModelImpl implements ImageContract.ImageModel {
 
     @Override
     public void loadImageList(final ImageContract.OnLoadImageListListener listener) {

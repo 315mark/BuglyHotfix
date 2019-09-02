@@ -15,7 +15,7 @@ import android.view.View;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.zkch.bugly.NewsDetailActivity;
 import com.zkch.bugly.R;
-import com.zkch.bugly.Urls;
+import com.zkch.bugly.api.Urls;
 import com.zkch.bugly.adapter.NewsAdapter;
 import com.zkch.bugly.base.BaseFragment;
 import com.zkch.bugly.bean.NewsBean;

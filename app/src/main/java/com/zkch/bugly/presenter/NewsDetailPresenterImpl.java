@@ -1,10 +1,8 @@
 package com.zkch.bugly.presenter;
 
-import android.content.Context;
-
 import com.zkch.bugly.bean.NewsDetailBean;
 import com.zkch.bugly.contract.NewsContract;
-import com.zkch.bugly.model.NewModel;
+import com.zkch.bugly.contract.NewsContract.NewModel;
 import com.zkch.bugly.model.NewsModelImpl;
 
 public class NewsDetailPresenterImpl implements NewsContract.NewsDetailPresenter , NewModel.OnLoadNewsDetailListener {

@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:padding="@dimen/dp_4">
+    android:padding="4dp">
 
     <TextView
         android:id="@+id/date"
@@ -26,7 +26,7 @@
         style="@style/weacher_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/dp_4"
+        android:padding="4dp"
         android:text="22℃-28℃" />
 
     <TextView
@@ -34,7 +34,7 @@
         style="@style/weacher_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/dp_4"
+        android:padding="4dp"
         android:text="微风"
         />
 
@@ -43,7 +43,7 @@
         style="@style/weacher_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/dp_4"
+        android:padding="4dp"
         android:text="阵雨转阴" />
 
 </LinearLayout>

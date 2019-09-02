@@ -1,4 +1,4 @@
-package com.zkch.bugly;
+package com.zkch.bugly.api;
 
 public class Urls {
     //http://c.m.163.com/nc/article/headline/T1348647909107/0-5.html  头条
@@ -30,5 +30,7 @@ public class Urls {
 
     //百度定位
     public static final String INTERFACE_LOCATION = "http://api.map.baidu.com/geocoder";
+
+
 
 }

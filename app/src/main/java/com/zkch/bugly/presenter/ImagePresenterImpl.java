@@ -2,7 +2,7 @@ package com.zkch.bugly.presenter;
 
 import com.zkch.bugly.bean.ImageBean;
 import com.zkch.bugly.contract.ImageContract;
-import com.zkch.bugly.model.ImageModel;
+import com.zkch.bugly.contract.ImageContract.ImageModel;
 import com.zkch.bugly.model.ImageModelImpl;
 import java.util.List;
 

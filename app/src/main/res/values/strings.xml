@@ -8,6 +8,10 @@
     <string name="navigation_images">images</string>
     <string name="navigation_weather">weather</string>
     <string name="navigation_about">about</string>
+    <string name="navigation_Pay">JPay</string>
+    <string name="navigation_AliPay">AliPay</string>
+    <string name="navigation_video">Video</string>
+    <string name="navigation_joker">Joker</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 
@@ -31,6 +35,13 @@
     <string name="title_activity_news_detail">NewsDetailActivity</string>
 
     <string name="image_hit">一次只加载20条，查看更多内容请刷新哦。</string>
+    <string name="options_menu_item_bank">Bank</string>
+    <string name="options_menu_item_email">Email</string>
+    <string name="options_menu_item_social_network">Social</string>
+    <string name="options_menu_item_others">Others</string>
+    <string name="options_menu_item_ecommerce">eCommerce</string>
+    <string name="update">update</string>
+    <string name="edit">edit</string>
 
 
 </resources>

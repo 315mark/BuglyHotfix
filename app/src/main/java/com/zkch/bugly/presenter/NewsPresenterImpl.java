@@ -1,10 +1,10 @@
 package com.zkch.bugly.presenter;
 
-import com.zkch.bugly.Urls;
+import com.zkch.bugly.api.Urls;
 import com.zkch.bugly.bean.NewsBean;
 import com.zkch.bugly.contract.NewsContract;
+import com.zkch.bugly.contract.NewsContract.NewModel;
 import com.zkch.bugly.fragment.NewsFragment;
-import com.zkch.bugly.model.NewModel;
 import com.zkch.bugly.model.NewsModelImpl;
 import com.zkch.bugly.utils.LogUtils;
 import java.util.List;

@@ -1,14 +1,15 @@
 package com.zkch.bugly.model;
 
-import com.zkch.bugly.Urls;
+import com.zkch.bugly.api.Urls;
 import com.zkch.bugly.bean.NewsBean;
 import com.zkch.bugly.bean.NewsDetailBean;
+import com.zkch.bugly.contract.NewsContract;
 import com.zkch.bugly.fragment.NewsFragment;
 import com.zkch.bugly.utils.NewsJsonUtils;
 import com.zkch.bugly.utils.OkHttpUtils;
 import java.util.List;
 
-public class NewsModelImpl implements NewModel {
+public class NewsModelImpl implements NewsContract.NewModel {
     //新闻列表加载
     @Override
     public void loadNews(String url, final int type, final OnLoadNewsListListener listener) {
@@ -83,4 +84,5 @@ public class NewsModelImpl implements NewModel {
         }
         return id;
     }
+
 }

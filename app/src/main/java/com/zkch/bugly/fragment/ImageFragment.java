@@ -4,7 +4,6 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
@@ -30,7 +29,6 @@ public class ImageFragment extends BaseFragment implements ImageContract.ImageVi
     SwipeRefreshLayout swipeRefresh;
 
     ImageContract.ImagePresenter mPresenter;
-    LinearLayoutManager manager;
     StaggeredGridLayoutManager gridLayoutManager;
     List<ImageBean> mData;
     ImageAdapter mAdapter;
